@@ -12,8 +12,8 @@ class PatternsApplicationTests {
 
 	@Test
 	void testFactoryPattern() {
-		com.patterns.factory.Client client = new com.patterns.factory.Client();
-		client.execute();
+        com.patterns.factory.Client client = new com.patterns.factory.Client();
+        client.execute();
 	}
 
 }
