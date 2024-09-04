@@ -20,7 +20,7 @@ public class Client {
     }
 
     public void execute() {
-        ICreator finalCreator = initializeCreator(System.getenv("RELEVANT_PRODUCT"));
+        ICreator finalCreator = initializeCreator(System.getenv("FACTORY__RELEVANT_PRODUCT"));
         IProduct finalProduct = finalCreator.createProduct();
         finalProduct.display();
     }

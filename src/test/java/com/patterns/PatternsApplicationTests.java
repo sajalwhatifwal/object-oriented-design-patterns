@@ -16,4 +16,9 @@ class PatternsApplicationTests {
 		client.execute();
 	}
 
+	@Test
+	void testAbstractFactoryPattern() {
+		com.patterns.abstractFactory.Client client = new com.patterns.abstractFactory.Client();
+		client.execute();
+	}
 }
